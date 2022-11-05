@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Full {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+}
+
+#Nav {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-right: 300px;
+    margin-top: 60px;
+}
+
+.navbar {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 10px 0px 0px;
+    justify-content: space-around;
+    width: 60%;
+
+    color: white;
+    font-family: "Montserrat", Arial;
+}
+
+#Top {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    background-image: url(https://zoro.to/images/zoro-bg.jpg);
+    background-size: cover;
+    height: 580px;
+}
+
+.Box {
+    max-width: 1210px;
+    width: 100%;
+    margin-left: 360px;
+    height: 495px;
+
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 500px;
+    position: relative;
+    height: 290px;
+}
+
+.icon {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 700px;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    size: 20px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+#Seach {
+    display: block;
+}
+
+.Home-Search {
+    margin: 0px;
+    display: block;
+    width: 600px;
+    height: 160px;
+}
+
+.search-content {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.resizedTextbox {
+    width: 520px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: black;
+    font-size: x-large;
+
+}
+
+.image {
+    margin-left: 5px;
+    height: 55px;
+    width: 55px;
+    border-radius: 52px;
+    border-color: black;
+}
+
+.tags {
+    height: 85px;
+
+
+}
+
+.title {
+
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", Arial;
+}
+
+.item {
+    color: #aaa;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Montserrat", Arial;
+
+}
+
+.item:hover {
+    color: #94CA47;
+}
+
+#Mid {
+    background: #202125;
+}
+
+.Box1 {
+    max-width: 1182px;
+    width: 100%;
+    margin-left: 360px;
+    margin-right: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 1500px;
+}
+
+#action-button {
+    background-color: #cae962;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.Site {
+
+    font-family: "Montserrat", Arial;
+    color: #111;
+    font-weight: 545;
+    font-size: xx-large;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+
+
+}
+
+.arrow {
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+
+}
