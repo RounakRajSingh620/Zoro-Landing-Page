@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    background: #202125;
 }
 
 #Full {
     margin: 0px;
     padding: 0px;
+    background: #202125;
 }
 
 #header {
@@ -17,7 +19,7 @@ body {
 }
 
 .container {
-    /* max-width: 1350px;    */
+    max-width: 1350px;
     width: 100%;
 }
 
@@ -27,7 +29,8 @@ body {
     text-decoration: none;
     box-sizing: border-box;
     padding-right: 300px;
-    margin-top: 60px;
+    margin-top: 50px;
+    height: 30px;
 }
 
 .navbar {
@@ -56,7 +59,7 @@ body {
     max-width: 1210px;
     width: 100%;
     margin-left: 360px;
-    height: 495px;
+    height: 499px;
 
 }
 
@@ -65,7 +68,7 @@ body {
     padding-bottom: 100px;
     padding-right: 500px;
     position: relative;
-    height: 290px;
+    height: 300px;
 }
 
 .icon {
@@ -168,6 +171,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 40px;
 
 }
 
@@ -193,4 +197,223 @@ body {
     margin-top: 5px;
     height: 30px;
 
+}
+
+.Share-button-details {
+
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #121315;
+    border-radius: 10px
+}
+
+.share-button-block {
+    padding: 15px;
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.share-icon {
+    display: none;
+}
+
+.share-title {
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-left: 2px solid #cae962;
+    ;
+    margin-right: 20px;
+    height: 49px;
+    color: #cae962;
+    ;
+}
+
+.hey {
+    font-size: large;
+    width: 87px;
+
+}
+
+.hi {
+    color: #ccc;
+    width: auto;
+    font-size: small;
+    margin: 0px;
+    height: 30px;
+
+}
+
+.share-social {
+    display: flex;
+    width: 100%;
+}
+
+.social {
+    width: 100px;
+    height: 49px;
+}
+
+button {
+    border-color: #121315;
+    background-color: #121315;
+    border-right: #121315;
+    border-bottom: #121315;
+    text-decoration: none;
+}
+
+.social:hover {
+    width: 103px;
+    height: 52px;
+}
+
+.about {
+    height: 1260px;
+    display: flex;
+}
+
+.left {
+    width: 720px;
+    height: 1250px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    padding: 0px;
+    border-right: 0px;
+    position: relative;
+
+}
+
+.right {
+    width: 400px;
+    height: 1200px;
+    box-sizing: border-box;
+    float: right;
+
+    position: relative;
+
+}
+
+.heading {
+    font-size: 1.8em;
+    font-weight: 530;
+    margin: 0 0 1em;
+    color: #fff;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ccc;
+    font-weight: 500;
+    margin: 5px;
+    font-size: large;
+}
+
+h2 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: list-item;
+    font-weight: 100;
+    list-style: none;
+    padding-left: 15px;
+}
+
+li {
+    color: #ccc;
+    margin-bottom: 15px;
+    list-style: disc;
+}
+
+.heading-news {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 530;
+    margin: 0 0 1em;
+    color: #fff;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Thing {
+    background-color: rgb(255, 255, 255, .05);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.type {
+    color: #aaa;
+
+}
+
+.item-name {
+    color: #fff;
+
+}
+
+.subject {
+    color: #aaa;
+}
+
+.owner {
+    color: #fff;
+}
+
+.block {
+    width: 340px;
+    height: 10px;
+    color: #ccc;
+    background-color: rgb(255, 255, 255, .05);
+    border-radius: 20px;
+    justify-content: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.block:hover {
+    background-color: #121315;
+}
+
+#footer {
+    width: 1900px;
+    height: 60px;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: #202125;
+
+}
+
+.Bottom {
+
+    margin-left: 362px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1180px;
+    justify-content: space-around;
+}
+
+.end {
+    margin: 16px;
 }
