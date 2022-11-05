@@ -2,12 +2,15 @@ body {
     margin: 0;
     padding: 0;
     background: #202125;
+    width: 100%;
+    overflow-y: hidden;
 }
 
 #Full {
     margin: 0px;
     padding: 0px;
     background: #202125;
+    width: 100%;
 }
 
 #header {
@@ -53,6 +56,7 @@ body {
     background-image: url(https://zoro.to/images/zoro-bg.jpg);
     background-size: cover;
     height: 580px;
+    width: 1900px;
 }
 
 .Box {
@@ -416,4 +420,9 @@ li {
 
 .end {
     margin: 16px;
+}
+@media(max-width:400px){
+    .icon{
+        display: none;
+    }
 }
