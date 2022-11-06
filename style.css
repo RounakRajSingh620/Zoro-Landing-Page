@@ -11,7 +11,9 @@ body {
     padding: 0px;
     background: #202125;
     width: 100%;
+   max-width:  1900px;
 }
+
 
 #header {
     padding: 0;
@@ -34,8 +36,20 @@ body {
     padding-right: 300px;
     margin-top: 50px;
     height: 30px;
+    list-style: none;
 }
-
+.hamburger-menu{
+    display: none;
+}
+@media(max-width: 880px){
+    .hamburger-menu{
+        display: contents;
+    }
+    #ull{
+        display: none;
+    }
+    
+}
 .navbar {
     display: flex;
     text-decoration: none;
@@ -43,7 +57,6 @@ body {
     margin: 10px 10px 0px 0px;
     justify-content: space-around;
     width: 60%;
-
     color: white;
     font-family: "Montserrat", Arial;
 }
@@ -91,7 +104,7 @@ body {
     padding-left: 10px;
 }
 
-#Seach {
+#Search {
     display: block;
 }
 
@@ -153,8 +166,11 @@ body {
     color: #94CA47;
 }
 
-#Mid {
+#Mid{
     background: #202125;
+    position: relative;
+    width: max-content;
+    width: 1900px;
 }
 
 .Box1 {
@@ -274,7 +290,7 @@ button {
     width: 103px;
     height: 52px;
 }
-
+1
 .about {
     height: 1260px;
     display: flex;
@@ -287,6 +303,7 @@ button {
     margin-right: 50px;
     padding: 0px;
     border-right: 0px;
+    float: left ;
     position: relative;
 
 }
