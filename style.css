@@ -11,7 +11,8 @@ body {
     padding: 0px;
     background: #202125;
     width: 100%;
-   max-width:  1900px;
+   max-width:  1830px;
+   position: relative;
 }
 
 
@@ -24,8 +25,10 @@ body {
 }
 
 .container {
-    max-width: 1350px;
+    max-width: 1830px;
     width: 100%;
+    margin-left: 220px;
+    margin-right: 500px;
 }
 
 #Nav {
@@ -170,7 +173,7 @@ body {
     background: #202125;
     position: relative;
     width: max-content;
-    width: 1900px;
+    width: 1830px;
 }
 
 .Box1 {
@@ -417,7 +420,7 @@ li {
 }
 
 #footer {
-    width: 1900px;
+    width: 1830px;
     height: 60px;
     display: flex;
     padding-top: 80px;
@@ -438,8 +441,19 @@ li {
 .end {
     margin: 16px;
 }
-@media(max-width:400px){
+@media(max-width:353px){
     .icon{
-        display: none;
+        width:600px ;
+        /* display: none; */
     }
+.container    {
+        margin-left: 3px;
+    }
+    .Box{
+        margin-left: 3px;
+    }
+   
+   .Box1{
+    margin-left: 3px;
+   }
 }
